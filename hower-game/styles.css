@@ -33,6 +33,7 @@ body {
 
 .square:hover{
   transition-duration: 0s;
+  transform: scale(1.2);
 }
 
 .btnClear{
