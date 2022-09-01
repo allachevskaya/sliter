@@ -33,7 +33,7 @@ const sliderItems = document.querySelectorAll('.slider_item')
 sliderItems.forEach((slide) => {
   slide.addEventListener('click', () => {
     clearActiveClassSlider()
-    slide.classList.add('active')
+    slide.classList.add('active');
   })
 })
 
@@ -48,5 +48,8 @@ window.addEventListener('click', e => {
   const target = e.target
   if (!target.closest('.slider_item')) {
     clearActiveClassSlider()
+  }
+  if(!target.closest('.nav__btn')){
+    clearActiveClass()
   }
 })
