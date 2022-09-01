@@ -14,7 +14,7 @@ const navBtns = document.querySelectorAll('.nav__btn')
 
 
 navBtns.forEach((btn) => {
-  btn.addEventListener('click',()=>{
+  btn.addEventListener('click', () => {
     clearActiveClass()
     btn.classList.add('nav__btn__active')
   })
@@ -26,3 +26,27 @@ function clearActiveClass() {
     btn.classList.remove('nav__btn__active')
   })
 }
+
+const sliderItems = document.querySelectorAll('.slider_item')
+
+
+sliderItems.forEach((slide) => {
+  slide.addEventListener('click', () => {
+    clearActiveClassSlider()
+    slide.classList.add('active')
+  })
+})
+
+
+function clearActiveClassSlider() {
+  sliderItems.forEach((slide) => {
+    slide.classList.remove('active')
+  })
+}
+
+window.addEventListener('click', e => {
+  const target = e.target
+  if (!target.closest('.slider_item')) {
+    clearActiveClassSlider()
+  }
+})

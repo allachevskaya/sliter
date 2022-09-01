@@ -1074,17 +1074,16 @@ body {
 
 .container__slider {
 
-
-  border: 2px solid #FF7A03;
   display: flex;
   width: 100%;
+  margin-top: 20px;
   padding: 0 20px;
 }
 
 .slider_item {
   height: 60vh;
   border-radius: 0px;
-  margin: 10px;
+  margin: 5px;
   cursor: pointer;
   color: aliceblue;
   flex: 1;
@@ -1093,18 +1092,32 @@ body {
   background-repeat: no-repeat;
   position: relative;
   transition: all 500ms ease-in-out;
-  border: 2px solid #FF7A03;
+ 
 }
 
 [data-slider-item-1]{
-  background-image: url('../pictures/Rectangle\ 600.png');
+  background-image: url('https://images.unsplash.com/photo-1661980658435-5aa7d66ea217?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80');
 }
 [data-slider-item-2]{
-  background-image: url('../pictures/Rectangle\ 600.png');
+  background-image: url('https://images.unsplash.com/photo-1661873527012-f9a299cc31fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
 }
 [data-slider-item-3]{
-  background-image: url('../pictures/Rectangle\ 600.png');
+  background-image: url('https://images.unsplash.com/photo-1661912267448-c45744f4691b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
 }
 [data-slider-item-4]{
-  background-image: url('../pictures/Rectangle\ 600.png');
+  background-image: url('https://images.unsplash.com/photo-1661912267451-712c028d74a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80');
+}
+[data-slider-item-5]{
+  background-image: url('https://images.unsplash.com/photo-1661951350268-226f5c1935f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+}
+[data-slider-item-6]{
+  background-image: url('https://images.unsplash.com/photo-1661870467713-1047a3e1f283?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80')
+}
+[data-slider-item-7]{
+  background-image: url('https://images.unsplash.com/photo-1661881556222-54af8e8de24b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80')
+}
+
+.slider_item.active{
+  flex: 3;
+  height: 70vh;
 }
