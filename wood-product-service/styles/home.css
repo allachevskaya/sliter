@@ -1153,7 +1153,7 @@ body {
   background-image: url('../pictures/Group\ 1386.svg');
   background-repeat: no-repeat;
   background-position: center;
-  
+
 
 
 
@@ -1229,6 +1229,8 @@ body {
 
 
 
+
+
 }
 
 .content-item-p4 {
@@ -1293,19 +1295,237 @@ body {
   background-image: url('../pictures/human2.png');
   width: 332.05px;
   height: 300.96px;
-  
+
 }
 
 [data-pick-item-6] {
   background-image: url('../pictures/oil.png');
   width: 741.05px;
   height: 300.54px;
-  
+
 }
 
 [data-pick-item-7] {
   background-image: url('../pictures/birds.png');
   width: 332.05px;
   height: 300.96px;
- 
+
+}
+
+
+/*-----page  5 -------------- */
+
+.page5 {
+  height: 1080px;
+  min-height: 100vh;
+  width: 100%;
+  background: #002733;
+  border: 2px solid #002733;
+
+
+}
+
+.page5__content {
+  width: 1595.35px;
+  height: 773.04px;
+  
+  margin: 10% auto;
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+.content__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+
+  width: 442.51px;
+  height: 464px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.content__info h1 {
+  width: 442.51px;
+  height: 168px;
+
+  /* H2 */
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 120%;
+
+  /* or 84px */
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.content__info p {
+  width: 392.11px;
+  /* height: 104px; */
+
+  /* Text Paragraph */
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+
+  /* or 26px */
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  width: 297px;
+  height: 72px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.phone-number {
+  width: 134px;
+  height: 26px;
+
+  /* Text Paragraph */
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+
+  /* identical to box height, or 26px */
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+
+}
+
+.phone-number::before {
+  content: url('../pictures/Vector\(1\).png');
+  margin-right: 12px;
+}
+
+.email {
+  width: 263px;
+  height: 26px;
+
+  /* Text Paragraph */
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+
+  /* identical to box height, or 26px */
+
+  color: #FFFFFF;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+}
+
+.email::before {
+  content: url('../pictures/Vector\(2\).png');
+  margin-right: 12px;
+}
+
+.content__map {
+  width: 60%;
+  height: 773.04px;
+  border: 2px solid rgb(0, 140, 255);
+  background-image: url('../pictures/Rectangle\ 594\(1\).png');
+  background-repeat: no-repeat;
+  border: 17px solid black;
+}
+
+.local {
+  position: relative;
+  width: 270.8px;
+  height: 150.27px;
+  left: 42.69px;
+  top: 443.71px;
+  z-index: 5;
+  background: #001019;;
+ text-align: center;
+}
+
+.local p {
+  font-family: 'EB Garamond';
+  
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  
+  width: 251.12px;
+  
+  margin: 0 auto;
+  padding-top:40px;
+
+  /* or 26px */
+
+  color: #FFFFFF;
+
+
+}
+
+.local span{
+  color:#FF7A03;
+  font-family: "Montserrat Alternates";
+  font-weight:700;
+}
+
+.svg{
+  position: absolute;
+width: 221.34px;
+height: 222.34px;
+left: 500.66px;
+top: 6356.08px;
+}
+
+.local::before{
+  content: url(../pictures/Group\ 1413.png);
+  float: left;
+  margin-top: -50px;
+  margin-left: -35px;
 }
